@@ -53,6 +53,8 @@ export class TutorialComponent {
 # String replace with input params
 For s = "CodefightsIsAwesome", the output should be 
 amendTheSentence(s) = "codefights is awesome";
+
+- This code using replace with regex and append occup string with space
 ``` javascript
 amendTheSentence = s => s
     .replace(/(.)(?=[A-Z])/g, '$1 ')
