@@ -50,3 +50,10 @@ export class TutorialComponent {
     }
 }
 ```
+# String replace with input params
+
+``` javascript
+amendTheSentence = s => s
+    .replace(/(.)(?=[A-Z])/g, '$1 ')
+    .toLowerCase()
+```
