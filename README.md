@@ -51,7 +51,8 @@ export class TutorialComponent {
 }
 ```
 # String replace with input params
-
+For s = "CodefightsIsAwesome", the output should be 
+amendTheSentence(s) = "codefights is awesome";
 ``` javascript
 amendTheSentence = s => s
     .replace(/(.)(?=[A-Z])/g, '$1 ')
